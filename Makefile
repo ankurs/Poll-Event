@@ -9,7 +9,7 @@ CFLAGS = -Wall -O2
 endif
 
 #name all the object files
-OBJS = main.o hash_table/hashtable.o poll.o
+OBJS = test.o hash_table/hashtable.o poll.o
 
 all : epoll hash_table
 
