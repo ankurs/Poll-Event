@@ -94,6 +94,7 @@ int main()
     // add sock to poll event
     poll_event_add(pe, sock, EPOLLIN, &p);
     // set callbacks
+    //p->read_callback = read_cb;
     p->accept_callback = accept_cb;
     p->close_callback = close_cb;
     // enable accept callback
