@@ -221,7 +221,7 @@ int poll_event_process(poll_event_t * poll_event)
 
 /**
  * Function to start the event loop which monitors all fds and callbacks accordingly
- * @note event loop runs indefinitely and can only be stopped by timeout callback, so to process the events only once use poll_event_process
+ * @note event loop runs indefinitely and can only be stopped by timeout callback, so to process events only once use poll_event_process
  */
 void poll_event_loop(poll_event_t* poll_event)
 {
