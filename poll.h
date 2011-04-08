@@ -14,6 +14,8 @@ typedef struct poll_event_element poll_event_element_t;
 typedef struct poll_event poll_event_t;
 
 /**
+ * License GPLv3+
+ * @author Ankur Shrivastava
  * @struct poll_event_element "poll.h"
  * @brief a poll event element containing callbacks, user data and flags
  */
