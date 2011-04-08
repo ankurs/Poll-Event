@@ -9,6 +9,10 @@
 #include <string.h>
 #include<unistd.h>
 
+/**
+ * License GPLv3+
+ */
+
 //poll_event_element functions
 /**
  * Function to allocate a new poll event element
